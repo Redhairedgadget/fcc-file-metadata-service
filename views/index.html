@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="freeCodeCamp #5 API challenge">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+
+  </head>
+  <body>
+  <div class="wrapper">
+      <h1>
+        File Metadata Checker
+      </h1>
+
+      <p class="bold">Oh hi,</p>
+      
+      <p>You can check metadata of your pic here:</p>
+      
+      <form action="/check" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a file</label>
+        <input name="file" type="file">
+        <br>
+        <button type="submit" value="upload">Check</button>
+      </form>
+
+    <footer>
+      Made by <a target = "_blank" href="https://codepen.io/redhairedgadget/">Redhairedgadget</a>.
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    </div>
+  </body>
+</html>
